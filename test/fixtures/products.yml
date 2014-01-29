@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  released_on: 2014-01-29
+  price: 1
+
+two:
+  name: MyString
+  released_on: 2014-01-29
+  price: 1
