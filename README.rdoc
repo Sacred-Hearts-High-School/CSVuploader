@@ -1,28 +1,21 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+這是一個支援 Rails 4.x 以上的範例程式。
+目的是讓 CSV, XLS, XLSX 這三種格式的資料檔匯入到伺服器的資料庫。
 
-Things you may want to cover:
+程式本身不只可以新增資料，也可以更新資料。
 
-* Ruby version
+本程式的來源是： 
+http://railscasts.com/episodes/396-importing-csv-and-excel?view=asciicast
 
-* System dependencies
+也參考了這邊的討論串：
+http://railscasts.com/episodes/396-importing-csv-and-excel?view=comments
 
-* Configuration
+上述連結中的程式如果直接拿來 Rails 4 執行，會噴出非常多錯誤。
 
-* Database creation
+我這個新手花了一整天爬文抓 bug，所以現在這是確實可以執行的程式。
 
-* Database initialization
+歡迎取用。
 
-* How to run the test suite
+by taichis 2014/01/29 新春快樂！
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
