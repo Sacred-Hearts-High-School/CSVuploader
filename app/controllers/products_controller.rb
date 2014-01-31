@@ -5,7 +5,8 @@ class ProductsController < ApplicationController
    end
 
    def import
-      Product.import(params[:file])
+      # 注意，import 與 import2 是稍有不同的匯入功能，請參見 model 中的註解
+      Product.import2(params[:file])
       redirect_to root_url, notice:"Products imported."
    end
 
